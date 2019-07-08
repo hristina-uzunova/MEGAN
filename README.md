@@ -61,14 +61,14 @@ This code works with following directory structure. You can choose another struc
 
 ## Usage
 
-###Preprocessing
+### Preprocessing
 If  you wish to use the same datasets as ours, you can use our preprocessing scripts. 
 ```sh
 $ python MEGAN/preprpcess_BRATS3D.py --in_img_dir path/to/BRATS/images
 $ python MEGAN/preprpcess_LPBA3D.py --in_img_dir path/to/LPBA/images
 ```
 
-###Training
+### Training
 To train each level:
 ```sh
 $ python MEGAN/train_BRATS3D_LR.py 
@@ -78,7 +78,7 @@ $ python MEGAN/train_BRATS3D_HR.py --LR_size 128 --HR_size 256 --level_name HR1
 ```
 Don't forget to set batch sizes using the argument ```batch_size```.  
 
-###Testing
+### Testing
 To get high resolution images when the GANs are trained simply run: 
 ```sh
 $ python MEGAN/test_BRATS3D.py
