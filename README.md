@@ -74,7 +74,7 @@ To train each level:
 $ python MEGAN/train_BRATS3D_LR.py 
 $ python MEGAN/train_BRATS3D_HR.py --LR_size 32 --HR_size 64 --level_name HR1
 $ python MEGAN/train_BRATS3D_HR.py --LR_size 64 --HR_size 128 --level_name HR2
-$ python MEGAN/train_BRATS3D_HR.py --LR_size 128 --HR_size 256 --level_name HR1 
+$ python MEGAN/train_BRATS3D_HR.py --LR_size 128 --HR_size 256 --level_name HR3 
 ```
 Don't forget to set batch sizes using the argument ```batch_size```.  
 
