@@ -83,3 +83,16 @@ To get high resolution images when the GANs are trained simply run:
 ```sh
 $ python MEGAN/test_BRATS3D.py
 ```
+
+## Citation
+This work has been accepted to the MICCAI 2019. If you use this code, please cite as follows:
+
+```
+@conference {MEGAN,
+	title = {Multi-scale GANs for Memory-efficient Generation of High Resolution Medical Images},
+	booktitle = {22nd International Conference on  Medical Image Computing and Computer Assisted Intervention, MICCAI 2019},
+	year = {In Press},
+	address = {Shenzen, China},
+	author = {Uzunova, Hristina and Ehrhardt, Jan and Jacob, Fabian and Frydrychowicz, Alex and Handels, Heinz}
+}
+```
