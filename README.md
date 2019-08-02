@@ -25,7 +25,7 @@ Here we establish image translation between the [LPBA40](https://resource.loni.u
 
 
 ### Folder structure
-This code works with following directory structure. You can choose another structure, however think about replacing the default options of the root directories. 
+This code works with following directory structure. You can choose another structure, however, think about replacing the default options of the root directories. 
 ```
 .
 ├── Data
@@ -79,7 +79,7 @@ To train each level:
 $ python MEGAN/train_BRATS3D_LR.py 
 $ python MEGAN/train_BRATS3D_HR.py --LR_size 32 --HR_size 64 --level_name HR1
 $ python MEGAN/train_BRATS3D_HR.py --LR_size 64 --HR_size 128 --level_name HR2
-$ python MEGAN/train_BRATS3D_HR.py --LR_size 128 --HR_size 256 --level_name HR1 
+$ python MEGAN/train_BRATS3D_HR.py --LR_size 128 --HR_size 256 --level_name HR3 
 ```
 Don't forget to set batch sizes using the argument ```batch_size```.  
 
@@ -88,12 +88,16 @@ To get high resolution images when the GANs are trained simply run:
 ```sh
 $ python MEGAN/test_BRATS3D.py
 ```
+
+## Citation
+This work has been accepted to the MICCAI 2019. If you use this code, please cite as follows:
+
 ```
-@conference {MEGAN,
+@inproceedings{MEGAN,
 	title = {Multi-scale GANs for Memory-efficient Generation of High Resolution Medical Images},
-	booktitle = {22nd International Conference on  Medical Image Computing and Computer Assisted Intervention, MICCAI 2019},
+	booktitle = {International Conference on  Medical Image Computing and Computer Assisted Intervention, MICCAI 2019},
 	year = {In Press},
-	address = {Shenzen, China},
-	author = {Uzunova, Hristina and Jan Ehrhardt and Jacob, Fabian and Frydrychowicz, Alex and Heinz Handels}
+	address = {Shenzhen, China},
+	author = {Uzunova, Hristina and Ehrhardt, Jan and Jacob, Fabian and Frydrychowicz, Alex and Handels, Heinz}
 }
 ```
