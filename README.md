@@ -4,7 +4,7 @@ There are a few differences to the original paper. For exmple we use open source
 
 | ![](images/real.png) | ![](images/realT2.png) | ![](images/fakeT2.png) |
 | :--: | :--: | :--: |
-| *Real LPBA* | *Real T2* | *Real T1* |  
+| *Real LPBA* | *Real T2* | *Fake T2* |  
 
 ## Prerequisites 
 - Linux or MacOS
