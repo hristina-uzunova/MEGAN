@@ -1,6 +1,11 @@
 # Memory-efficient GAN
 PyTorch implementation of [Multi-scale GANs for Memory-efficient Generation of High Resolution Medical Images](https://arxiv.org/abs/1907.01376).
 There are a few differences to the original paper. For exmple we use open source brain MRI images here. Also the reception field on every lower-resolution scale is made larger than the reception field of every high-resolution scale, which perfoms better. 
+
+| ![](images/real.png) | ![](images/realT2.png) | ![](images/fakeT2.png) |
+| :--: | :--: | :--: |
+| *Real LPBA* | *Real T2* | *Real T1* |  
+
 ## Prerequisites 
 - Linux or MacOS
 - Python 3
@@ -82,4 +87,13 @@ Don't forget to set batch sizes using the argument ```batch_size```.
 To get high resolution images when the GANs are trained simply run: 
 ```sh
 $ python MEGAN/test_BRATS3D.py
+```
+```
+@conference {MEGAN,
+	title = {Multi-scale GANs for Memory-efficient Generation of High Resolution Medical Images},
+	booktitle = {22nd International Conference on  Medical Image Computing and Computer Assisted Intervention, MICCAI 2019},
+	year = {In Press},
+	address = {Shenzen, China},
+	author = {Uzunova, Hristina and Jan Ehrhardt and Jacob, Fabian and Frydrychowicz, Alex and Heinz Handels}
+}
 ```
