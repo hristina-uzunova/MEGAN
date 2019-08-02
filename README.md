@@ -20,7 +20,7 @@ Here we establish image translation between the [LPBA40](https://resource.loni.u
 
 
 ### Folder structure
-This code works with following directory structure. You can choose another structure, however think about replacing the default options of the root directories. 
+This code works with following directory structure. You can choose another structure, however, think about replacing the default options of the root directories. 
 ```
 .
 ├── Data
@@ -88,11 +88,11 @@ $ python MEGAN/test_BRATS3D.py
 This work has been accepted to the MICCAI 2019. If you use this code, please cite as follows:
 
 ```
-@conference {MEGAN,
+@inproceedings{MEGAN,
 	title = {Multi-scale GANs for Memory-efficient Generation of High Resolution Medical Images},
-	booktitle = {22nd International Conference on  Medical Image Computing and Computer Assisted Intervention, MICCAI 2019},
+	booktitle = {International Conference on  Medical Image Computing and Computer Assisted Intervention, MICCAI 2019},
 	year = {In Press},
-	address = {Shenzen, China},
+	address = {Shenzhen, China},
 	author = {Uzunova, Hristina and Ehrhardt, Jan and Jacob, Fabian and Frydrychowicz, Alex and Handels, Heinz}
 }
 ```
